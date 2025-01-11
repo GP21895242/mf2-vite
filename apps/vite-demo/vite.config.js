@@ -37,7 +37,7 @@ export default defineConfig({
           requiredVersion: "^18.3.1",
           singleton: true,
         },
-        "test-libs": {
+        "@demo/test-libs": {
           singleton: true,
         },
       },
