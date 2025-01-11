@@ -10,11 +10,11 @@ export default defineConfig({
     hmr: false, // disable hot module reload to integrate with webpack
   },
   base: "http://localhost:3003",
-  resolve: {
-    alias: {
-      "@demo/test-libs": path.resolve(__dirname, "../../libs/test-libs/src"),
-    }
-  },
+  // resolve: {
+  //   alias: {
+  //     "@demo/test-libs": path.resolve(__dirname, "../../libs/test-libs/src"),
+  //   }
+  // },
   build: {
     target: "esnext",
   },
